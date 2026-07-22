@@ -19,7 +19,7 @@ A Hello-World-sized **dummy COSMIC applet** for diagnosing a potential bug in
 ## Why? What is the purpose?
 
 A bug was identified while using the
-[Workspace Icons](https://github.com/crocodile/cosmic-ext-applet-workspace-icons)
+[Workspace Icons](https://github.com/crocodile/cosmic-ext-applet-workspace-icons/issues/19)
 applet:
 
 > Rapidly opening its right-click popup across different monitors makes
