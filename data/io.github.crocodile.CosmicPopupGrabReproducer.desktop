@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Popup Grab Reproducer
+Comment=Minimal diagnostic applet for cross-output popup grabs
+Type=Application
+Exec=cosmic-popup-grab-reproducer
+Terminal=false
+Categories=COSMIC;Development;
+Keywords=COSMIC;Applet;Popup;Diagnostic;
+Icon=dialog-information-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-HostWaylandDisplay=true
+

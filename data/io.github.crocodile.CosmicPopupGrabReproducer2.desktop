@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Popup Grab Reproducer 2
+Comment=Second instance of the minimal cross-output popup reproducer
+Type=Application
+Exec=cosmic-popup-grab-reproducer
+Terminal=false
+Categories=COSMIC;Development;
+Keywords=COSMIC;Applet;Popup;Diagnostic;
+Icon=dialog-information-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-HostWaylandDisplay=true

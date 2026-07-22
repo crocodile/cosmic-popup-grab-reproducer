@@ -1,0 +1,21 @@
+[package]
+name = "cosmic-popup-grab-reproducer"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "Minimal reproducer for cross-output COSMIC panel popup grabs"
+publish = false
+
+[features]
+default = ["tooltip"]
+tooltip = []
+
+[dependencies]
+libcosmic = { git = "https://github.com/pop-os/libcosmic", default-features = false, features = [
+    "applet",
+    "applet-token",
+    "multi-window",
+    "tokio",
+    "wayland",
+    "winit",
+] }
