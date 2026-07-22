@@ -82,7 +82,7 @@ The same-monitor tests used two desktop entries that launch the same binary.
 | Cross-monitor | Enabled | ❌ Crashed on the first A → B → A sequence |
 
 ---
-### 2nd test run - with updated dependencies:
+### 2nd test run with updated dependencies:
 
 #### Environment:
 
