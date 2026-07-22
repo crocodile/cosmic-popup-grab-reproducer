@@ -26,7 +26,7 @@ applet:
 opened across two monitors in an A → B → A sequence. The panel and dock disappear. `cosmic-panel` remains running, so they are not
 restarted.
 
-This applet proves that the Workspace Icons applet's code might not be responsible. This skeleton code-like applet reproduces the same failure using only standard libcosmic tooltip and popup APIs.
+This minimal applet proves that the Workspace Icons applet's code might not be responsible. It reproduces the same failure using only standard libcosmic tooltip and popup APIs.
 
 ### Steps to reproduce the bug with this applet:
 
