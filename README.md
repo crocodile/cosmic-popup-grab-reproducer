@@ -23,8 +23,8 @@ A bug was identified while using the
 applet:
 
 > Workspace Icons can trigger a COSMIC panel crash when its right-click popup is
-opened across two monitors in an A → B → A sequence. The `cosmic-panel` process stays alive but
-stops displaying them, so COSMIC does not restart it automatically.
+opened across two monitors in an A → B → A sequence. The panel and dock disappear. `cosmic-panel` remains running, so they are not
+restarted.
 
 This applet proves that the Workspace Icons applet's code might not be responsible. This skeleton code-like applet reproduces the same failure using only standard libcosmic tooltip and popup APIs.
 
