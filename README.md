@@ -117,8 +117,6 @@ The updated build produced the same `NotTheTopmostPopup` error, followed by
 The crash required cross-monitor popup switching with the
 [tooltip](src/main.rs#L92-L101) enabled. The tooltip is non-grabbing; it exposes
 a popup ordering or lifetime bug rather than requesting the invalid grab.
-[Workspace Icons](https://github.com/crocodile/cosmic-ext-applet-workspace-icons)
-code is not required to trigger the failure.
 
 Updating all compatible Cargo dependencies did not change the result. An
 outdated lockfile is not the cause, although libcosmic remains a possible
